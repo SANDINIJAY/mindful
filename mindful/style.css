@@ -1,0 +1,139 @@
+.container1{
+   margin-top: 30px;
+}
+.header{
+
+    font-size: 40px;
+    font: fantasy;
+    font-weight: 500;
+}
+.header2{
+    font-size: 25px;
+    color: rgb(73, 73, 73);
+    
+   
+}
+
+.iconclr{
+    color:  rgb(0, 129, 168);
+}
+
+.divcon{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.10), 0 10px 20px 0 rgba(0, 0, 0, 0.10);
+  }
+  
+.desc{
+    font-size: larger;
+}
+
+.header3{
+    color: rgb(2, 152, 197);
+    font-size: 50px;
+   
+    
+}
+.word {
+    
+    width: 100%; 
+    
+    border-bottom: 1px solid rgb(56, 56, 56); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+ } 
+
+.word span { 
+     
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.user-input-wrp {
+	position: relative;
+	width: 90%;
+}
+.user-input-wrp .inputText{
+	width: 100%;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #777;
+}
+.user-input-wrp .inputText:invalid {
+	box-shadow: none !important;
+}
+.user-input-wrp .inputText:focus{
+	border-color: rgb(0, 129, 168);
+	border-width: medium medium 2px;
+}
+.user-input-wrp .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 18px;
+	left: 10px;
+	transition: 0.2s ease all;
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: 0px;
+	left: 10px;
+	font-size: 13px;
+	opacity: 1;
+}
+
+.button {
+    position: relative;
+    background-color: #000000;
+    border: 0px;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 10px;
+    width:100%;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .button:after {
+    content: "";
+    background: #ffffff4f;
+    display: block;
+    border: 0px;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 1s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+
+  .divlast{
+      width: 100%;
+  }
+
+  
+.error{
+    background:#F2DEDE;
+    color:#A94442 ;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+      
+      
